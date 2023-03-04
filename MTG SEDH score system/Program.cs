@@ -16,6 +16,14 @@ namespace MTG_SEDH_score_system
     internal class Program
     {
 
+        String[] CARDNAME = new string[7];
+        { { "Colors"}
+        { "Color Identity"}
+        { "Converted Mana Cost"}
+
+
+
+       
 
 
 
