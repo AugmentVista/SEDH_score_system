@@ -39,14 +39,30 @@ namespace MTG_SEDH_score_system
         public static string[] InstantSubType = new string[] { "Adventure" , "Arcane" , "Lesson" , "Trap" };
         public static string[] SorcerySubType = new string[] { "Adventure" , "Arcane" , "Lesson" , "Trap" };
         public static string[] ColorIdentity = new string[] { "Colorless" , "White" , "Blue" , "Black" , "Red" , "Green" , "Azorious" , "Orzhov" , "Boros" , "Selesyna" , "Dimir" , "Izzet" , "Simic" , "Rakdos" , "Golgari" , "Gruul" , "Esper", "Jeskai", "Bant", "Mardu", "Azban", "Naya", "Grixis", "Sultai", "Temur", "Jund" , "Yore", "Witch", "Ink", "Dune", "Glint", "Rainbow" }; 
-
-
         public static string[] CardType = new string[] {"Land" , "Creature" , "Enchantment" , "Artifact" , "Instant" , "Sorceries" };
         public static int Power = 10;
         public static int Toughness = 10;
 
+        static void BaseCard()
+        {
+            
+            Console.WriteLine(ConvertedManaCost[1]);
+            Console.WriteLine(DifferentManaValue[1]);
+            Console.WriteLine(Supertype);
+            Console.WriteLine(LandSubType[1]);
+            Console.WriteLine(CreatureSubType[1]);
+            Console.WriteLine(EnchantmentSubType[1]);
+            Console.WriteLine(ArtifactSubType[1]);
+            Console.WriteLine(InstantSubType[1]);
+            Console.WriteLine(SorcerySubType[2]);
+            Console.WriteLine(ColorIdentity[1]);
 
-    
+
+
+
+
+        }
+
 
         static void Main(string[] args)
         {
@@ -57,11 +73,11 @@ namespace MTG_SEDH_score_system
             Supertype[3] = false;
 
 
-            
 
 
             
-            
+
+
 
 
 
